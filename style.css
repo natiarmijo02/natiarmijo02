@@ -1,0 +1,49 @@
+/**estilos para el body*/
+
+body {
+    font-family: fantasy;
+    background-color: rgb(59, 208, 235);
+  }
+  
+  header {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  p {
+    font-weight: bold;
+  }
+  #p1 {
+    background-color: rgb(241, 241, 241);
+  }
+  
+  .perfil {
+    width: 25%;
+    border: 10px solid salmon;
+    border-radius: 5%;
+  }
+  
+  /*ESTILO DE LA SECCION 4*/
+  ul{ list-style-type:unset
+  
+  }
+  ol{
+    list-style-type:
+    font-style: italic;
+  }
+  
+  table {
+  padding: 40px;
+  } 
+  td, th{
+    border: 2px solid rgb(207, 150, 150);background-color: aqua ;
+    color: rgb(219, 207, 207);
+  }
+  
+
+  
+  input [type="text"], input[type="number"] ,input[type=""]
+{
+width: 580px;
+border-radius: 10px; 
+padding: 15xp auto;
+}
