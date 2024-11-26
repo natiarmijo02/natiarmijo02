@@ -1,0 +1,9 @@
+body{
+
+    background-color: rgb(85, 184, 151);
+}
+ul{ list-style-type: decimal;}
+table{
+    border: 0.6px;
+    padding: 40px;
+}
