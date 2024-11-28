@@ -2,7 +2,7 @@
 
 body {
     font-family: fantasy;
-    background-color: rgb(59, 208, 235);
+    background-color: rgb(158, 219, 230);
   }
   
   header {
@@ -27,7 +27,7 @@ body {
   
   }
   ol{
-    list-style-type:
+    list-style-type:decimal;
     font-style: italic;
   }
   
@@ -47,3 +47,50 @@ width: 580px;
 border-radius: 10px; 
 padding: 15xp auto;
 }
+.buttonl{
+background-color:azure;
+
+ color:red;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 12px;
+margin: 4px 2pxs;
+cursor: pointer;
+}
+
+.buttonl:hovert{
+border: Bgreen 2px solid;
+box-shadow: Spx Spx Spx Dlgreen;
+font-size: 20px;
+color: Ebrom;
+border-collapse: collapse;
+width:"100 px";
+border: 1px solid Delack;
+
+text-align: left;
+padding: Spx;
+
+}
+
+
+header{
+  background-color: rgb(211, 211, 80);
+  border: radius 10px;;
+padding: 1rem;
+}
+  padi
+  nav{
+    background-color:beige ;
+  }
+  aside{
+    background-color:brown ;
+  }
+  footer{
+    background-color:darkslategray ;
+  }
+  body{ 
+    background: linear-gradient( );
+  }
+ 
