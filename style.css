@@ -41,9 +41,9 @@ body {
   
 
   
-  input [type="text"], input[type="number"] ,input[type=""]
+  input [type="text"], input[type="number"] ,input[type="email"]
 {
-width: 580px;
+min-width: 100%;
 border-radius: 10px; 
 padding: 15xp auto;
 }
@@ -75,22 +75,60 @@ padding: Spx;
 }
 
 
-header{
+
+.header{
   background-color: rgb(211, 211, 80);
-  border: radius 10px;;
-padding: 1rem;
+  border-radius: 10px;;
+  padding: 1rem;
+  grid-area: "header";
+  text-align: center;
 }
-  padi
-  nav{
+  .nav{
     background-color:beige ;
+    border-radius: 10px;
+    padding: 1rem;
+    grid-area: "nav";
+    text-align: center;
   }
-  aside{
+  .main{
     background-color:brown ;
+    border-radius: 10px;
+    padding: 1rem;
+    grid-area: "main";
+    text-align: center;
   }
-  footer{
+  .aside{
     background-color:darkslategray ;
+    border-radius: 10px;
+    padding: 1rem;
+    grid-area: "aside";
+    text-align: center;
   }
-  body{ 
-    background: linear-gradient( );
+  .footer{ 
+    background-color: coral;
+    border-radius: 10px;
+    padding: 1rem;
+    grid-area: "footer";
+    text-align: center;
   }
- 
+ .page{ 
+display: grid;
+gap: 2px;
+grid-template: 
+"main" 100px 
+"nav" 50px
+"header" auto
+"aside" 100px
+"footer" 50px/ auto;
+
+@media( min-width:768px){
+gri-template:
+" encabezado       eencabezado     encabezado "
+;
+@media( min-width:1024px){
+grid-template:
+" main    main     main     main     main " 100px
+" nav     nav      nav      nav      nav "
+" header  header  header    header    header"
+}
+}}
